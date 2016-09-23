@@ -51,8 +51,8 @@ msgstr ""
 #: startup-pro/post-formats/content-gallery.php:105 startup-pro/post-formats/content-image.php:85
 #: startup-pro/post-formats/content-link.php:117 startup-pro/post-formats/content-quote.php:85
 #: startup-pro/post-formats/content-status.php:85 startup-pro/post-formats/content-video.php:81
-#: startup-pro/post-formats/content.php:89 startup-pro/config/pro-filters-config.php:589
-#: startup-pro/config/pro-filters-config.php:1009
+#: startup-pro/post-formats/content.php:89 startup-pro/config/startup-pro-filters-config.php:589
+#: startup-pro/config/startup-pro-filters-config.php:1009
 msgid "Read More"
 msgstr ""
 
@@ -68,120 +68,120 @@ msgstr ""
 msgid "Try again please, use the search form below."
 msgstr ""
 
-#: startup-pro/config/pro-actions-config.php:189
+#: startup-pro/config/startup-pro-actions-config.php:189
 msgid "Primary Menu"
 msgstr ""
 
-#: startup-pro/config/pro-actions-config.php:193
+#: startup-pro/config/startup-pro-actions-config.php:193
 msgid "Top Menu"
 msgstr ""
 
-#: startup-pro/config/pro-actions-config.php:197
+#: startup-pro/config/startup-pro-actions-config.php:197
 msgid "One Page Menu"
 msgstr ""
 
-#: startup-pro/config/pro-actions-config.php:201
+#: startup-pro/config/startup-pro-actions-config.php:201
 msgid "Footer Menu"
 msgstr ""
 
-#: startup-pro/config/pro-actions-config.php:562
+#: startup-pro/config/startup-pro-actions-config.php:562
 msgid "About the author"
 msgstr ""
 
-#: startup-pro/config/pro-filters-config.php:589
-#: startup-pro/config/pro-filters-config.php:1009
+#: startup-pro/config/startup-pro-filters-config.php:589
+#: startup-pro/config/startup-pro-filters-config.php:1009
 msgid "about"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:213
-#: startup-pro/config/pro-front-end-functions.php:255
-#: startup-pro/config/pro-front-end-functions.php:515
-#: startup-pro/config/pro-front-end-functions.php:569
+#: startup-pro/config/startup-pro-front-end-functions.php:213
+#: startup-pro/config/startup-pro-front-end-functions.php:255
+#: startup-pro/config/startup-pro-front-end-functions.php:515
+#: startup-pro/config/startup-pro-front-end-functions.php:569
 msgid "By:"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:291
-#: startup-pro/config/pro-front-end-functions.php:329
-#: startup-pro/config/pro-front-end-functions.php:523
-#: startup-pro/config/pro-front-end-functions.php:561
-#: startup-pro/config/pro-front-end-functions.php:653
+#: startup-pro/config/startup-pro-front-end-functions.php:291
+#: startup-pro/config/startup-pro-front-end-functions.php:329
+#: startup-pro/config/startup-pro-front-end-functions.php:523
+#: startup-pro/config/startup-pro-front-end-functions.php:561
+#: startup-pro/config/startup-pro-front-end-functions.php:653
 msgid "0"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:291
-#: startup-pro/config/pro-front-end-functions.php:329
-#: startup-pro/config/pro-front-end-functions.php:523
-#: startup-pro/config/pro-front-end-functions.php:561
-#: startup-pro/config/pro-front-end-functions.php:653
+#: startup-pro/config/startup-pro-front-end-functions.php:291
+#: startup-pro/config/startup-pro-front-end-functions.php:329
+#: startup-pro/config/startup-pro-front-end-functions.php:523
+#: startup-pro/config/startup-pro-front-end-functions.php:561
+#: startup-pro/config/startup-pro-front-end-functions.php:653
 msgid "1"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:291
-#: startup-pro/config/pro-front-end-functions.php:329
-#: startup-pro/config/pro-front-end-functions.php:523
-#: startup-pro/config/pro-front-end-functions.php:561
-#: startup-pro/config/pro-front-end-functions.php:653
+#: startup-pro/config/startup-pro-front-end-functions.php:291
+#: startup-pro/config/startup-pro-front-end-functions.php:329
+#: startup-pro/config/startup-pro-front-end-functions.php:523
+#: startup-pro/config/startup-pro-front-end-functions.php:561
+#: startup-pro/config/startup-pro-front-end-functions.php:653
 msgid "%"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:397
+#: startup-pro/config/startup-pro-front-end-functions.php:397
 msgid "Posted in:"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:611
+#: startup-pro/config/startup-pro-front-end-functions.php:611
 msgid "Sticky"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:663
+#: startup-pro/config/startup-pro-front-end-functions.php:663
 msgid "Comments are Off"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:701
+#: startup-pro/config/startup-pro-front-end-functions.php:701
 msgid "Edit"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:739
+#: startup-pro/config/startup-pro-front-end-functions.php:739
 msgid "Previous Post"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:743
+#: startup-pro/config/startup-pro-front-end-functions.php:743
 msgid "Next Post"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:943
+#: startup-pro/config/startup-pro-front-end-functions.php:943
 msgid "Pages"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:957
-#: startup-pro/config/pro-front-end-functions.php:1211
+#: startup-pro/config/startup-pro-front-end-functions.php:957
+#: startup-pro/config/startup-pro-front-end-functions.php:1211
 msgid "Next"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:959
-#: startup-pro/config/pro-front-end-functions.php:1209
+#: startup-pro/config/startup-pro-front-end-functions.php:959
+#: startup-pro/config/startup-pro-front-end-functions.php:1209
 msgid "Previous"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:1145
+#: startup-pro/config/startup-pro-front-end-functions.php:1145
 msgid "Load More"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:2282
+#: startup-pro/config/startup-pro-front-end-functions.php:2282
 msgid "Pingback:"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:2288
-#: startup-pro/config/pro-front-end-functions.php:2342
+#: startup-pro/config/startup-pro-front-end-functions.php:2288
+#: startup-pro/config/startup-pro-front-end-functions.php:2342
 #: woocommerce/single-product/review.php:169
 msgid "(Edit)"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:2338
+#: startup-pro/config/startup-pro-front-end-functions.php:2338
 #, php-format
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: startup-pro/config/pro-front-end-functions.php:2360
+#: startup-pro/config/startup-pro-front-end-functions.php:2360
 #: woocommerce/single-product/review.php:197
 msgid "Your comment is awaiting moderation."
 msgstr ""

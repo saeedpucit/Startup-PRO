@@ -23,7 +23,7 @@
              }
          } else if ( !class_exists('redux') ) {
                    if( has_nav_menu( 'primary' ) ){
-                     get_template_part( 'startup-pro/headers/s2-header-v1' );
+                     get_template_part( 'startup-pro/headers/startup-pro-header-3' );
                      get_template_part( 'startup-pro/headers/mobile-header' );
                      get_template_part( 'startup-pro/headers/sticky-header' );
                    }

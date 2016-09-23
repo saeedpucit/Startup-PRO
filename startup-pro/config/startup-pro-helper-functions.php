@@ -154,7 +154,7 @@ function after_item( $depth = 0 ) {
  *
  */
 function middle_logo() {
-	if ( get_header_layout() == 's2-header-v2' ) {
+	if ( get_header_layout() == 'startup-pro-header-4' ) {
 		return true;
 	}
 	return false;
