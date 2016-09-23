@@ -4,7 +4,7 @@
  *
  * @package startup-pro
  */
-include_once( get_template_directory() . '/pro-framework/init.php');
+include_once( get_template_directory() . '/startup-pro/init.php');
 
 function startup_pro_remove_redux_framework_notification() {
     if ( class_exists('ReduxFrameworkPlugin') ) {

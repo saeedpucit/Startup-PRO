@@ -2,7 +2,7 @@
 /**
  * TGM Init Class
  */
-get_template_part( 'pro-framework/plugins/zip/class','tgm-plugin-activation' );
+get_template_part( 'startup-pro/plugins/zip/class','tgm-plugin-activation' );
 add_action( 'tgmpa_register', 'startup_pro_register_required_plugins' );
 /**
  * Register the required plugins for this theme.

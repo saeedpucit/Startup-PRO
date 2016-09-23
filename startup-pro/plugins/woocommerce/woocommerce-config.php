@@ -14,7 +14,7 @@ if ( ! function_exists( 'startup_pro_woocommerce_add_to_cart_ajax' ) ) {
 
 		ob_start();
 
-		get_template_part( 'pro-framework/plugins/woocommerce/woocommerce-ajax-cart' );
+		get_template_part( 'startup-pro/plugins/woocommerce/woocommerce-ajax-cart' );
 
 		$mini_cart = ob_get_clean();
 

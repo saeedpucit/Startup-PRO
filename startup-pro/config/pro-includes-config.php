@@ -27,7 +27,7 @@
 
 // ----------------------------------------------------------------------------------------------------
 
-get_template_part( 'pro-framework/includes/custom-style');
+get_template_part( 'startup-pro/includes/custom-style');
 
 //
 
@@ -35,7 +35,7 @@ get_template_part( 'pro-framework/includes/custom-style');
 
 // ----------------------------------------------------------------------------------------------------
 if (  class_exists( 'WooCommerce' ) ) {
-	get_template_part( 'pro-framework/plugins/woocommerce/woocommerce-config');
+	get_template_part( 'startup-pro/plugins/woocommerce/woocommerce-config');
 }
 //
 
@@ -49,6 +49,6 @@ $startup_pro_apikey = startup_pro_get_option( 'themeforest-api-key' );
 
 if ( ! empty( $startup_pro_username ) && ! empty( $startup_pro_apikey ) ) {
 
-	get_template_part( 'pro-framework/plugins/pro-theme-updater/pro-theme-updater');
+	get_template_part( 'startup-pro/plugins/pro-theme-updater/pro-theme-updater');
 
 }

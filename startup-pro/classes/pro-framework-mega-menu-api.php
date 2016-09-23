@@ -14,7 +14,7 @@
 
  */
 
-get_template_part( 'pro-framework/includes/walker_nav_menu');
+get_template_part( 'startup-pro/includes/walker_nav_menu');
 
 class PROFramework_Mega_Menu_API extends NETBEEFramework_Abstract {
 

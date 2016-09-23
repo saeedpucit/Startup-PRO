@@ -18,7 +18,7 @@ class PROFramework_Actions_API extends NETBEEFramework_Abstract {
 		}
 	}
 	public function wp_enqueue_media() {
-		wp_enqueue_script( 'pro-gallery-settings', STARTUP_PRO_FRAMEWORK_ASSETS . '/js/pro-gallery-settings.js', array( 'media-views' ), '1.0.0', true );
+		wp_enqueue_script( 'pro-gallery-settings', STARTUP_PRO_ASSETS . '/js/pro-gallery-settings.js', array( 'media-views' ), '1.0.0', true );
 	}
 	/**
 	 *

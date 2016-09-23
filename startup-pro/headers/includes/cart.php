@@ -25,7 +25,7 @@ global $woocommerce, $startup_pro_options; ?>
 
 		<div class="cart-dropdown-cont">
 
-			<?php get_template_part( 'pro-framework/plugins/woocommerce/woocommerce-ajax-cart' ) ?>
+			<?php get_template_part( 'startup-pro/plugins/woocommerce/woocommerce-ajax-cart' ) ?>
 
 		</div>
 

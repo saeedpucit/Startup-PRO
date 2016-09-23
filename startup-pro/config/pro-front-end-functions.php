@@ -16,16 +16,16 @@
      function startup_pro_header() {
          $startup_pro_options = startup_pro_get_theme_options();
          if ( $startup_pro_options['page-header-switch'] ) {
-             get_template_part( 'pro-framework/headers/' . $startup_pro_options['header-layout'] );
-             get_template_part( 'pro-framework/headers/mobile-header' );
+             get_template_part( 'startup-pro/headers/' . $startup_pro_options['header-layout'] );
+             get_template_part( 'startup-pro/headers/mobile-header' );
              if ( $startup_pro_options['sticky-header'] && $startup_pro_options['header-layout'] != 'one-page-menu' ) {
-               get_template_part( 'pro-framework/headers/sticky-header' );
+               get_template_part( 'startup-pro/headers/sticky-header' );
              }
          } else if ( !class_exists('redux') ) {
                    if( has_nav_menu( 'primary' ) ){
-                     get_template_part( 'pro-framework/headers/s2-header-v1' );
-                     get_template_part( 'pro-framework/headers/mobile-header' );
-                     get_template_part( 'pro-framework/headers/sticky-header' );
+                     get_template_part( 'startup-pro/headers/s2-header-v1' );
+                     get_template_part( 'startup-pro/headers/mobile-header' );
+                     get_template_part( 'startup-pro/headers/sticky-header' );
                    }
  				}
      }
@@ -37,10 +37,10 @@
 		function startup_pro_header() {
 			$startup_pro_options = startup_pro_get_theme_options();
 			if ( $startup_pro_options['page-header-switch'] ) {
-				get_template_part( 'pro-framework/headers/' . $startup_pro_options['header-layout'] );
-				get_template_part( 'pro-framework/headers/mobile-header' );
+				get_template_part( 'startup-pro/headers/' . $startup_pro_options['header-layout'] );
+				get_template_part( 'startup-pro/headers/mobile-header' );
 				if ( $startup_pro_options['sticky-header'] && $startup_pro_options['header-layout'] != 'one-page-menu' ) {
-					get_template_part( 'pro-framework/headers/sticky-header' );
+					get_template_part( 'startup-pro/headers/sticky-header' );
 				}
 			}
 		}
@@ -95,11 +95,11 @@ if ( ! function_exists( 'startup_pro_rev_slider' ) ) {
  if ( ! function_exists( 'startup_pro_title_bar' ) ) {
 		 function startup_pro_title_bar() {
 				 if( !class_exists('redux') ){
-				   get_template_part( 'pro-framework/template-parts/image-header' );
+				   get_template_part( 'startup-pro/template-parts/image-header' );
 				 }else{
 				   $startup_pro_options = startup_pro_get_theme_options();
 				   if ( $startup_pro_options['page-title-bar'] ) {
-				       get_template_part( 'pro-framework/template-parts/image-header' );
+				       get_template_part( 'startup-pro/template-parts/image-header' );
 				   }
 				 }
 		 }
@@ -114,7 +114,7 @@ if ( ! function_exists( 'startup_pro_title_bar' ) ) {
 
 		if ( $startup_pro_options['page-title-bar'] ) {
 
-			get_template_part( 'pro-framework/template-parts/image-header' );
+			get_template_part( 'startup-pro/template-parts/image-header' );
 
 		}
 

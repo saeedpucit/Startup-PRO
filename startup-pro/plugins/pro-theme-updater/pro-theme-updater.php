@@ -28,7 +28,7 @@ if ( ! function_exists( 'startup_pro_pre_set_site_transient_update_themes' ) ) {
 
 			if ( ! class_exists( 'Envato_Protected_API' ) ) {
 
-				get_template_part( 'pro-framework/plugins/pro-theme-updater/class-envato-protected-api' );
+				get_template_part( 'startup-pro/plugins/pro-theme-updater/class-envato-protected-api' );
 
 			}
 

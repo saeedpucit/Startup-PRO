@@ -68,9 +68,9 @@ if ( ! function_exists( 'startup_pro_main_menu' ) ) {
 function startup_pro_side_menu_start( $type ) {
 	$from = ( $type == 'side-header-right' ) ? 'right' : 'left';
 	echo '<div class="mp-pusher ' . $from . '" id="mp-pusher">';
-	get_template_part( 'pro-framework/headers/side-header' );
+	get_template_part( 'startup-pro/headers/side-header' );
 	echo '<div class="scroller"><div class="inner-scroller">';
-	get_template_part( 'pro-framework/headers/includes/side-menu-logo' );
+	get_template_part( 'startup-pro/headers/includes/side-menu-logo' );
 }
 /**
  *

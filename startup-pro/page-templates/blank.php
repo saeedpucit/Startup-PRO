@@ -19,7 +19,7 @@
 	<div id="content" class="site-content">
 		<?php
 		if ( $startup_pro_options['page-title-bar'] ) {
-			get_template_part( 'pro-framework/template-parts/image-header' );
+			get_template_part( 'startup-pro/template-parts/image-header' );
 		}
 		?>
 		<div class="container cont-padding">

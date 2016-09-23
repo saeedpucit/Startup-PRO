@@ -50,7 +50,7 @@ $startup_pro_options = startup_pro_get_theme_options(); // Check theme options f
 							<?php }; ?>
 							<?php
 							$startup_pro_options = startup_pro_get_theme_options(); // Check theme options for existence
-							$startup_pro_include_path = 'pro-framework/headers';
+							$startup_pro_include_path = 'startup-pro/headers';
 							$cont_right   = $startup_pro_options['footer-right-content'];
 							switch ( $cont_right ) {
 								case "contact-info":
@@ -60,7 +60,7 @@ $startup_pro_options = startup_pro_get_theme_options(); // Check theme options f
 									get_template_part( $startup_pro_include_path . '/includes/socials-footer' );
 									break;
 								case "navigation":
-									get_template_part( 'pro-framework/template-parts/footer-menu' );
+									get_template_part( 'startup-pro/template-parts/footer-menu' );
 									break;
 								case "custom-content":
 									echo wp_kses_post( $startup_pro_options['copyright-custom-content'] );
@@ -82,7 +82,7 @@ $startup_pro_options = startup_pro_get_theme_options(); // Check theme options f
 													</div>
 													<div class="col-xs-12 col-md-7">
 															<div class="arrow-to-top"><b class="fa-angle-up"></b></div>
-															<?php get_template_part( 'pro-framework/headers/includes/socials-footer' ); ?>
+															<?php get_template_part( 'startup-pro/headers/includes/socials-footer' ); ?>
 													</div>
 											</div>
 									</div>

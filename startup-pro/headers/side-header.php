@@ -1,6 +1,6 @@
 <?php
 $startup_pro_options = startup_pro_get_theme_options(); // Check theme options for existence
-$startup_pro_include_path = 'pro-framework/headers/';
+$startup_pro_include_path = 'startup-pro/headers/';
 ?>
 <nav id="mp-menu" class="mp-menu primary-menu">
 	<div class="mp-level">
