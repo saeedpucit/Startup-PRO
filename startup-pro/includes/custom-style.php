@@ -145,7 +145,7 @@ CSS;
 	if ( $options['primary-color'] ) {
 		echo <<<CSS
 aside.sidebar .widget_nav_menu ul li.current-menu-item > a,
-.netbee_widget ul li a:hover,
+.smart_widget ul li a:hover,
 aside.sidebar .widget_nav_menu ul li a:hover,
 .pro-tab .pro-tab-nav ul li.active a,
 .pro-tab .pro-tab-nav ul li a:hover,
@@ -363,14 +363,14 @@ CSS;
 	};
 	if ( ! $options['footer-widget-delimiter'] ) {
 		echo <<<CSS
-	footer .netbee_widget ul li {
+	footer .smart_widget ul li {
 		border-bottom:none;
 	}
 CSS;
 	};
 	if ( ! $options['sidebar-widget-delimiter'] ) {
 		echo <<<CSS
-	aside.sidebar .netbee_widget ul li {
+	aside.sidebar .smart_widget ul li {
 		border-bottom:none;
 	}
 CSS;

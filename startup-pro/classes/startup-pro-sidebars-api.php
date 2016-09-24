@@ -30,7 +30,7 @@ class NETBEEFramework_Sidebars_API extends NETBEEFramework_Abstract {
 				'id'            => $key,
 				'name'          => $name,
 				'description'   => 'Drag widgets for all of pages sidebar',
-				'before_widget' => '<div class="netbee_widget %2$s">',
+				'before_widget' => '<div class="smart_widget %2$s">',
 				'after_widget'  => '</div>',
 				'before_title'  => '<div class="widget-title"><h4>',
 				'after_title'   => '</h4></div>'
@@ -71,7 +71,7 @@ class NETBEEFramework_Sidebars_API extends NETBEEFramework_Abstract {
 					'id'            => 'footer-' . $num,
 					'name'          => 'Footer Widget ' . $num,
 					'description'   => 'Appears in the footer section of the site',
-					'before_widget' => '<div class="netbee_widget %2$s">',
+					'before_widget' => '<div class="smart_widget %2$s">',
 					'after_widget'  => '</div>',
 					'before_title'  => '<div class="widget-title"><h4>',
 					'after_title'   => '</h4></div>'
@@ -96,7 +96,7 @@ class NETBEEFramework_Sidebars_API extends NETBEEFramework_Abstract {
 					'id'            => sanitize_title( $sidebar_name ),
 					'name'          => $sidebar_name,
 					'description'   => 'Drag widgets for all of pages sidebar',
-					'before_widget' => '<div class="netbee_widget %2$s">',
+					'before_widget' => '<div class="smart_widget %2$s">',
 					'after_widget'  => '</div>',
 					'before_title'  => '<div class="widget-title"><h4>',
 					'after_title'   => '</h4></div>'

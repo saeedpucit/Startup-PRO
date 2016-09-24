@@ -190,7 +190,7 @@ function startup_pro_register_shop_sidebar() {
 
 		'description'   => 'Drag widgets for all of shop sidebar',
 
-		'before_widget' => '<section class="netbee_widget %2$s">',
+		'before_widget' => '<section class="smart_widget %2$s">',
 
 		'after_widget'  => '</section>',
 

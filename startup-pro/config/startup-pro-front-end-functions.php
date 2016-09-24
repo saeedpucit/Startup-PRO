@@ -2211,9 +2211,9 @@ if ( ! function_exists( 'startup_pro_footer_widgets' ) ) {
  *
  */
 
-if ( ! function_exists( 'netbee_footer_contact_details' ) ) {
+if ( ! function_exists( 'smart_footer_contact_details' ) ) {
 
-	function netbee_footer_contact_details() {
+	function smart_footer_contact_details() {
 
 		$startup_pro_options = startup_pro_get_theme_options();
 

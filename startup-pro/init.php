@@ -13,11 +13,11 @@ defined( 'STARTUP_PRO_PLUGIN_DIR' ) or define( 'STARTUP_PRO_PLUGIN_DIR', STARTUP
 defined( 'STARTUP_PRO_PLUGIN_URI' ) or define( 'STARTUP_PRO_PLUGIN_URI', STARTUP_PRO_THEME_URI . '/startup-pro/plugins' );
 defined( 'STARTUP_PRO_HEADERS_DIR' ) or define( 'STARTUP_PRO_HEADERS_DIR', STARTUP_PRO_THEME_DIR . '/startup-pro/headers' );
 defined( 'STARTUP_PRO_HEADERS_URI' ) or define( 'STARTUP_PRO_HEADERS_URI', STARTUP_PRO_THEME_URI . '/startup-pro/headers' );
-defined( 'STARTUP_PRO_OPTION_NAME' ) or define( 'STARTUP_PRO_OPTION_NAME', 'netbee_options' );
+defined( 'STARTUP_PRO_OPTION_NAME' ) or define( 'STARTUP_PRO_OPTION_NAME', 'smart_options' );
 
 //include( STARTUP_PRO_DIR. '/smart-core/init.php' );
 
-if (  function_exists( 'netbee_core_plugin_url' ) ) {
+if (  function_exists( 'smart_core_plugin_url' ) ) {
 		Redux::init( STARTUP_PRO_OPTION_NAME );
 }
 

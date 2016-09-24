@@ -1308,7 +1308,7 @@ li.back .left {
 	width: 100%;
 }
 .tabs-container .tab_content .contains-posts .post-holder .meta .post-date,
-.netbee_widget_custom_posts .netbee_blog_posts_widget ul li span {
+.smart_widget_custom_posts .smart_blog_posts_widget ul li span {
 	font-size: 12px;
 	font-weight: normal;
 	opacity: 1;
@@ -3161,24 +3161,24 @@ ul.pro-chat li {
 	opacity: 0.3;
 	margin-top: -12px;
 }
-.netbee_widget {
+.smart_widget {
 	width: 100%;
 	margin-bottom: 48px;
 	word-wrap: break-word;
 }
-.netbee_widget .widget-title h4 {
+.smart_widget .widget-title h4 {
 	padding-bottom: 14px;
 	margin-bottom: 20px;
 }
-.netbee_widget ul {
+.smart_widget ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 }
-.netbee_widget ul li {
+.smart_widget ul li {
 	list-style-type: none;
 }
-.netbee_widget ul li {
+.smart_widget ul li {
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #e8e8e8;
@@ -3200,36 +3200,36 @@ ul.pro-chat li {
 .isotope-blog .col-md-4 .entry-date {
 	float: right;
 }
-.netbee_blog_posts_widget ul li > a {
+.smart_blog_posts_widget ul li > a {
 	font-weight: bold;
 }
-.netbee_widget ul li a:hover {
+.smart_widget ul li a:hover {
 	text-decoration: none;
 }
-.netbee_widget ul li:last-child {
+.smart_widget ul li:last-child {
 	margin-bottom: 0;
 	border-bottom: none;
 }
-.netbee_widget ul li ul {
+.smart_widget ul li ul {
 	margin-top: 10px;
 	padding-top: 10px;
 	padding-left: 15px;
 	border-top: 1px solid #e8e8e8;
 }
-.netbee_widget_custom_posts .with-image li {
+.smart_widget_custom_posts .with-image li {
 	position: relative;
 	padding-left: 70px;
 	min-height: 74px;
 	margin-bottom: 10px;
 	padding-bottom: 14px;
 }
-.netbee_widget_custom_posts .with-image li a {
+.smart_widget_custom_posts .with-image li a {
 	display: block;
 	width: 100%;
 	text-decoration: none;
 	line-height: 20px;
 }
-.netbee_widget_custom_posts .with-image li a img {
+.smart_widget_custom_posts .with-image li a img {
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
@@ -3238,12 +3238,12 @@ ul.pro-chat li {
 	top: 2px;
 	width: 60px;
 }
-.netbee_widget_custom_posts .post-date, .netbee_widget_custom_posts .post-category {
+.smart_widget_custom_posts .post-date, .smart_widget_custom_posts .post-category {
 	display: block;
 	font-size: 11px;
 	opacity: 0.7;
 }
-footer .netbee_widget span.post-date {
+footer .smart_widget span.post-date {
 	display: block;
 	font-size: 12px;
 	opacity: 1;
@@ -3265,21 +3265,21 @@ footer .netbee_widget span.post-date {
 	margin-right: 5px;
 	opacity: 1;
 }
-.netbee_widget_portfolio_photos .tooltip-arrow {
+.smart_widget_portfolio_photos .tooltip-arrow {
 	top: auto !important;
 }
-.netbee_widget_portfolio_photos a {
+.smart_widget_portfolio_photos a {
 	display: block;
 	padding: 0;
 }
-.netbee_widget_portfolio_photos a:hover {
+.smart_widget_portfolio_photos a:hover {
 	opacity: 0.75;
 }
 .widget_shopping_cart .buttons a:before {
 	font-family: 'Glyphter';
 	content: '\0042' !important;
 }
-.netbee_widget_portfolio_photos img {
+.smart_widget_portfolio_photos img {
 	display: block;
 	border-width: 0 1px 1px 0;
 	border-color: transparent;
@@ -3288,13 +3288,13 @@ footer .netbee_widget span.post-date {
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 }
-.netbee_flickr_widget {
+.smart_flickr_widget {
 	display: inline;
 }
-.netbee_flickr_widget a:hover {
+.smart_flickr_widget a:hover {
 	opacity: 0.75;
 }
-.netbee_flickr_widget img {
+.smart_flickr_widget img {
 	border-width: 0 1px 1px 0;
 	border-color: transparent;
 	border-style: solid;
@@ -3480,7 +3480,7 @@ aside.sidebar .widget_nav_menu .fa {
 	text-align: center;
 	background: #ebebeb;
 }
-.netbee_widget .image {
+.smart_widget .image {
 	width: 52px;
 	height: 50px;
 }
@@ -3491,7 +3491,7 @@ aside.sidebar .widget_nav_menu .fa {
 	width: 28%;
 	height: auto;
 }
-.netbee_widget .image img {
+.smart_widget .image img {
 	width: 100%;
 	height: auto;
 }
@@ -3510,7 +3510,7 @@ aside.sidebar .widget_nav_menu .fa {
 	display: block;
 	margin-bottom: 2px;
 }
-.pro-tabs-widget .tab_content ul > li .post-holder > a, .widget_recent_entries.netbee_widget ul li > a, .widget_recent_comments.netbee_widget ul li > a {
+.pro-tabs-widget .tab_content ul > li .post-holder > a, .widget_recent_entries.smart_widget ul li > a, .widget_recent_comments.smart_widget ul li > a {
 	font-weight: bold;
 }
 .pro-tabs-widget .tab_content img {
@@ -3779,11 +3779,11 @@ footer .widget p {
 /*--------------------------------------------------------------
 9.2 Sidebar Widgets
 --------------------------------------------------------------*/
-.netbee_widget.widget_categories li, .netbee_widget.widget_archive li, .netbee_widget.widget_product_categories li {
+.smart_widget.widget_categories li, .smart_widget.widget_archive li, .smart_widget.widget_product_categories li {
 	color: #cecece;
 	position: relative;
 }
-.netbee_widget.widget_categories li:after, .netbee_widget.widget_archive li:after, .netbee_widget.widget_product_categories li:after {
+.smart_widget.widget_categories li:after, .smart_widget.widget_archive li:after, .smart_widget.widget_product_categories li:after {
 	content: '\f105';
 	position: absolute;
 	right: 4px;
@@ -3791,10 +3791,10 @@ footer .widget p {
 	top: 50%;
 	margin-top: -12px;
 }
-.netbee_widget.widget_product_categories li.cat-parent:after {
+.smart_widget.widget_product_categories li.cat-parent:after {
 	display: none;
 }
-.netbee_widget.widget_categories li a, .netbee_widget.widget_archive li a, .netbee_widget.widget_product_categories li a {
+.smart_widget.widget_categories li a, .smart_widget.widget_archive li a, .smart_widget.widget_product_categories li a {
 	padding-right: 6px;
 }
 .sidebar .widget-title h4 {
@@ -4126,7 +4126,7 @@ MC4WP form
 #header-sticky .logo-inline-menu {
 	display: none;
 }
-.netbee_widget .product-categories img {
+.smart_widget .product-categories img {
 	margin-right: 10px;
 }
 .roadtip {
@@ -5036,7 +5036,7 @@ article .entry-category a {
 .form-submit #submit {
 	padding: 10px 40px;
 }
-.netbee_widget.widget_search .pro-search-form button {
+.smart_widget.widget_search .pro-search-form button {
 	top: 50%;
 	right: 4px;
 }
@@ -5157,7 +5157,7 @@ article .entry-category a {
 .panel {
 	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
 }
-aside.sidebar .netbee_widget ul li a.remove {
+aside.sidebar .smart_widget ul li a.remove {
 	width: auto;
 	position: relative;
 	float: right;
@@ -6663,7 +6663,7 @@ header.entry-header .entry-meta span {
 header.style-1 .primary-menu .navbar-nav > li > a {
 	line-height: 50px;
 }
-.netbee_widget_download_btns {
+.smart_widget_download_btns {
 	margin-bottom: 13px !important;
 }
 h3.nav-previous, h3.nav-next {
@@ -6762,7 +6762,7 @@ h3.nav-previous, h3.nav-next {
 	border: 1px solid transparent;
 	border-color: rgba(255, 255, 255, .3);
 }
-.netbee_widget input, .netbee_widget button, .netbee_widget select, .netbee_widget textarea {
+.smart_widget input, .smart_widget button, .smart_widget select, .smart_widget textarea {
 	max-width: 100%;
 }
 /* Slider */
@@ -6972,7 +6972,7 @@ h3.nav-previous, h3.nav-next {
 	color: black;
 	opacity: 0.75;
 }
-.netbee_widget_custom_posts .with-image li.no-image {
+.smart_widget_custom_posts .with-image li.no-image {
 	padding-left: 0;
 }
 ol > li.comment::before, ol > li.comment::before, ol > li.comment::before {

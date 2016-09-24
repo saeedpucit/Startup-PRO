@@ -23,7 +23,7 @@ $startup_pro_options = startup_pro_get_theme_options(); // Check theme options f
 					</div>
 				<?php }; ?>
 				<?php if ( $startup_pro_options['show-footer-contact-details'] ) {
-					echo netbee_footer_contact_details();
+					echo smart_footer_contact_details();
 				} ?>
 			</div>
 		</div>

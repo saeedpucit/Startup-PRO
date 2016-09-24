@@ -16,9 +16,9 @@ $startup_pro_options = startup_pro_get_theme_options(); // Check theme options f
 		$startup_pro_page_left_sidebar 	= 'sidebar-1';
 		$startup_pro_page_layout 				= 'full';
 	}else{
-		$startup_pro_page_right_sidebar = netbee_redux_post_meta( "netbee_options", get_the_ID(), "sidebar-right" );
-		$startup_pro_page_left_sidebar = netbee_redux_post_meta( "netbee_options", get_the_ID(), "sidebar-right" );
-		$startup_pro_page_layout = netbee_redux_post_meta( "netbee_options", get_the_ID(), "layout" );
+		$startup_pro_page_right_sidebar = smart_redux_post_meta( "smart_options", get_the_ID(), "sidebar-right" );
+		$startup_pro_page_left_sidebar = smart_redux_post_meta( "smart_options", get_the_ID(), "sidebar-right" );
+		$startup_pro_page_layout = smart_redux_post_meta( "smart_options", get_the_ID(), "layout" );
 	}
 
 $startup_pro_options['single-sidebar-right'] = isset($startup_pro_options['single-sidebar-right']);

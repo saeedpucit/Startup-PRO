@@ -8,8 +8,8 @@
  */
 if ( ! function_exists( 'startup_pro_get_theme_options' ) ) {
  	function startup_pro_get_theme_options() {
-  		if ( isset($GLOBALS['netbee_options'])) {
-   			$startup_pro_options = $GLOBALS['netbee_options'];
+  		if ( isset($GLOBALS['smart_options'])) {
+   			$startup_pro_options = $GLOBALS['smart_options'];
    			return $startup_pro_options;
   		}
  	}
