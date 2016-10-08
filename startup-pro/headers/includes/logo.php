@@ -14,14 +14,12 @@
 			$startup_pro_page_retina_logo = $startup_pro_options["logo-upload-retina"];
 
 			if ( empty($startup_pro_page_logo['url']) ) {
-
 				if(has_custom_logo())
 				{
 					startup_pro_the_custom_logo();
 				}
 				else
 				{
-
 				}
 			} else {
 				startup_pro_output_logo( $startup_pro_page_logo, $startup_pro_page_retina_logo );

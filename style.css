@@ -1859,7 +1859,7 @@ div.wpcf7-validation-errors {
 	display: inline-block;
 }
 .footer-form .widget h3 {
-	color: #2ecc71;
+	color: #F92740;
 	font-size: 18px;
 	margin: 10px 0 20px;
 	font-weight: 400;
@@ -5522,7 +5522,7 @@ aside.sidebar .smart_widget ul li a.remove {
 	height: 158px !important;
 }
 .entry-summary .cart .single_add_to_cart_button:hover {
-	background-color: #2ecc71;
+	background-color: #F92740;
 }
 .woocommerce .pro-products .onsale, .woocommerce-page .pro-products .onsale {
 	z-index: 99;
@@ -7115,7 +7115,7 @@ line-height:30px;
 .ubtn-hover-active {
  	border-radius: 0 !important;
 }
-.footer-form .wpcf7-form input[type="submit"] {background-color:#2ecc71; cursor:pointer; }
+.footer-form .wpcf7-form input[type="submit"] {background-color:#F92740; cursor:pointer; }
 .footer-form .wpcf7-form input[type="submit"]:hover {background-color:#fff; color:#444;}
 /*
  * ========================================
@@ -7138,7 +7138,7 @@ line-height:30px;
 	font-weight: 900;
 }
 .article-event .event-information a:hover {
-	color: #2ecc71;
+	color: #F92740;
 }
 .article-event .event-information ul {
 	overflow: hidden;
@@ -7169,7 +7169,7 @@ line-height:30px;
 	font-weight: normal;
 }
 .article-event .event-information ul li p span.price-event {
-	color: #2ecc71;
+	color: #F92740;
 }
 .article-event .event-information .time-event span {
 	text-transform: lowercase;
@@ -7289,7 +7289,7 @@ line-height:30px;
 	font-size: 18px;
 	font-weight: 900;
 	text-transform: uppercase;
-	color: #2ecc71;
+	color: #F92740;
 }
 .single-event .location-event .address-event {
 	font-size: 14px;
@@ -7339,7 +7339,7 @@ line-height:30px;
 }
 .single-event .contact-event p.content-email-event,
 .single-event .contact-event p.contact-webiste-event {
-	color: #2ecc71;
+	color: #F92740;
 }
 .single-event .contact-event p i {
 	color: #555555;

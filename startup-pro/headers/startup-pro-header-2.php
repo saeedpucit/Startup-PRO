@@ -14,7 +14,7 @@ $startup_pro_transparent_header = $startup_pro_options["transparent-header"];
 		<div class="container">
 			<div class="header-top">
 				<div class="center">
-					<?php get_template_part( $startup_pro_include_path . '/includes/logo' ) ?>
+					<?php get_template_part( $startup_pro_include_path . '/includes/logo' ); ?>
 				</div>
 			</div>
 		</div>

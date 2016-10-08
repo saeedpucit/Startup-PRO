@@ -5,7 +5,7 @@ if ( ! is_404() && ! is_home() ) {
 	if( !class_exists('redux') ) {
 		$startup_pro_page_bar = Array
             (
-                'background-color'        => '#3ad071',
+                'background-color'        => '#F92740',
                 'background-repeat'       => 'repeat',
                 'background-size'         => 'cover',
                 'background-attachment'   => '',
